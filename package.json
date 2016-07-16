@@ -1,0 +1,26 @@
+{
+  "name": "around-campus",
+  "version": "1.0.0",
+  "description": " Around Campus is a web app that allows students to discover new places around campus. Once  registered and logged in, users can enter new places. Like local restaurants, bars, sporting events, and cafe's into the database as well as write reviews.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirdao/Week-15-Group-Project.git"
+  },
+  "author": "Mark Dao, Phillip Ramos, Brittany Burroughs, Mike Boire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirdao/Week-15-Group-Project/issues"
+  },
+  "homepage": "https://github.com/sirdao/Week-15-Group-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express-session": "^1.14.0",
+    "passport": "^0.3.2",
+    "sequelize": "^3.23.4"
+  }
+}
